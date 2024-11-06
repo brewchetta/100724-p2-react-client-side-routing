@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function AnimalCard({ animal, setAnimals }) {
 
     async function handleUpdateLikes() {
@@ -23,7 +25,9 @@ function AnimalCard({ animal, setAnimals }) {
 
     return (
         <div className="card">
-            <img src={ animal.image } />
+            <Link to={`/app/animals/${animal.id}`}>
+                <img src={ animal.image } />
+            </Link>
 
             <h2>{animal.name}</h2>
 

@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Bob the raccoon",
       "image": "https://www.cedarhilltx.com/ImageRepository/Document?documentID=38200",
-      "likes": 18
+      "likes": 23
     },
     {
       "id": "469b",
@@ -22,6 +22,12 @@
       "id": "8bb4",
       "name": "Auto",
       "image": "https://www.treehugger.com/thmb/iayN8kOoAdb190hXrlG9KdZEb8Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2015__09__river-otters-lead-photo-86eef01e35714da9a6dd974f321e3504.jpg",
+      "likes": 0
+    },
+    {
+      "id": "34b3",
+      "name": "Chilla",
+      "image": "https://external-preview.redd.it/E8-qSLUjpEghlZeOFZ6eDuiOiKu1eMWg3B5yUTmqseA.jpg?width=640&crop=smart&auto=webp&s=34eaba68560dd70db28daf11c76e359f8aa766b6",
       "likes": 0
     }
   ]

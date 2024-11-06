@@ -1,6 +1,9 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
-function NewAnimalForm({ animals, setAnimals }) {
+function NewAnimalForm() {
+
+    const navigate = useNavigate()
 
     const [name, setName] = useState('')
     const [image, setImage] = useState('')
@@ -19,19 +22,13 @@ function NewAnimalForm({ animals, setAnimals }) {
         const newAnimal = { name, image, likes: 0 }
 
         try {
-            const response =  await fetch('http://localhost:3000/animals', {
+            await fetch('http://localhost:3000/animals', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
                 body: JSON.stringify(newAnimal)
             })
 
-            const data = await response.json()
-
-            const updatedAnimals = [...animals, data]
-    
-            setAnimals(updatedAnimals)
-
-            resetForm()
+            navigate('/app')
         } catch (error) {
             console.error(error)
             alert("Something went wrong...")
