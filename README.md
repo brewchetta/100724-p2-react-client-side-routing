@@ -1,16 +1,18 @@
-# React Advanced Fetch
+# React Client Side Routing
 
 ## Learning Goals
 
-- POST, PATCH, DELETE requests
+- React Router package
 
-- useEffect
+- Creating routes
 
-- Spread operator as a form of adding elements
+- Outlet and child routes
 
-- Mapping as a form of editing elements
+- Error pages
 
-- Filtering as a form of deleting elements
+- useParams
+
+- useNavigate
 
 ## Getting Started
 

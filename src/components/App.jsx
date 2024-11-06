@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import AnimalsContainer from "./Animals/AnimalsContainer"
-import NewAnimalForm from "./Animals/NewAnimalForm"
+import AnimalsContainer from "./AnimalsContainer"
+import NewAnimalForm from "./NewAnimalForm"
 
 // CRUD: CREATE READ UPDATE DESTROY
 // CRED: CREATE READ EDIT DELETE
@@ -18,9 +18,6 @@ function App() {
   }
   
   useEffect(() => {
-    // fetch('http://localhost:3000/animals')
-    // .then(response => response.json())
-    // .then(animalData => setAnimals(animalData))
     getAnimals()
   }, [])
 

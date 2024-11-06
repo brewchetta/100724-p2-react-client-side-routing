@@ -14,7 +14,7 @@ function AnimalCard({ animal, setAnimals }) {
 
 
     async function handleDelete() {
-        const response = await fetch(`http://localhost:3000/animals/${animal.id}`, {
+        await fetch(`http://localhost:3000/animals/${animal.id}`, {
             method: 'DELETE'
         })
 
