@@ -25,7 +25,7 @@ function AnimalCard({ animal, setAnimals }) {
 
     return (
         <div className="card">
-            <Link to={`/app/animals/${animal.id}`}>
+            <Link to={`/animals/${animal.id}`}>
                 <img src={ animal.image } />
             </Link>
 

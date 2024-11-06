@@ -1,6 +1,3 @@
-import { useState, useEffect } from 'react'
-import AnimalsContainer from "./AnimalsContainer"
-import NewAnimalForm from "./NewAnimalForm"
 import Navbar from './Navbar'
 import { Outlet } from 'react-router-dom'
 
